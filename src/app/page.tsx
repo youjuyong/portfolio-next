@@ -1,13 +1,18 @@
 import Image from "next/image";
-import { Header_Layout } from "../app/component/LayOutCompo";
+import { Header_Layout, Root_Layout, Content_Layout } from "../app/component/LayOutCompo";
+import { Intro } from "./component/ContentCompo";
+import "../css/globals.css";
+import "../css/header.css";
+import "../css/var.css";
+import "../css/mobile.css";
 
-export default function Home() {
+export default function Home( {children} : Readonly<{ children : React.ReactNode }>) {
   return (
-    <>
-      <Header_Layout>
-        <title>포폴</title>
-      </Header_Layout>
-      <div>시작</div>
-    </>
+    <Root_Layout>
+      <Header_Layout/>
+      <Content_Layout>
+          <Intro></Intro>
+      </Content_Layout>
+    </Root_Layout>
   );
 }
