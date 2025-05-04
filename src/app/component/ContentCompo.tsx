@@ -1,8 +1,6 @@
 
 import styles from "../../css/layout.module.css";
-import { Intro_Profile } from "../component/ImageCompo"
-;
-import { Profile_cake } from "../component/ImageCompo";
+import { Intro_Profile } from "../component/ImageCompo";
 
 export const Intro = () => {
     return (

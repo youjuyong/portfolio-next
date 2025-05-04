@@ -1,5 +1,3 @@
-import Head from "next/head";
-import { Children } from "react";
 import styles from "../../css/layout.module.css";
 import localFont from "next/font/local";
 
@@ -33,14 +31,14 @@ export function Header_Layout () {
 }
 
 // Root 레이아웃
-export function Root_Layout ( { children } : Readonly<{ children : React.ReactNode }> ) {
+export function Root_Layout ( { children } : any ) {
     return (
         <div id="root">{children}</div>
     )
 }
 
 // 컨텐트 레이아웃
-export function Content_Layout ( { children } : Readonly<{ children : React.ReactNode }> ) {
+export function Content_Layout ( { children } : any ) {
     return (
         <div className={styles.content_layout}>
             {children}

@@ -6,7 +6,7 @@ import "../css/header.css";
 import "../css/var.css";
 import "../css/mobile.css";
 
-export default function Home( {children} : Readonly<{ children : React.ReactNode }>) {
+export default function Home( {children} : any) {
   return (
     <Root_Layout>
       <Header_Layout/>
