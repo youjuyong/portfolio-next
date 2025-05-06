@@ -7,5 +7,10 @@
 
     .layout-module__0iApWW__intro_art1 {
         float: none !important;
+        width : 100%;
+    }
+
+    .layout-module__0iApWW__intro_art2 {
+        float: none !important;
     }
 }

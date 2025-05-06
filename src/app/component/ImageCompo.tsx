@@ -1,6 +1,6 @@
 import Image from "next/image";
 import img from "../../../public/images/header_logo.png";
-import profile from "../../../public/images/test33.png";
+import profile from "../../../public/images/photo1.png";
 import cake from "../../../public/images/cake.png";
 
 export const Header_Log = () => {

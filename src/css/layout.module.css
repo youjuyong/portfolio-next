@@ -99,7 +99,7 @@
 
 .intro_art1 {
     height: 500px ;
-    width : 350px;
+    width : 30%;
     float: left; 
     border-right: 1px solid var(--gray400);
     padding : 30px;
@@ -107,11 +107,40 @@
 }
 
 .intro_art2 {
-    width : auto;
-    /* float: right; */
+    width : 70%;
+    float: left; 
     height : 500px;
     position: relative;
     /* overflow: hidden; */
+
+    .intro_art2_div {
+        padding : 25px;
+        position: inherit;
+        text-align: center;
+        
+        h1 {
+            font-weight: 700;
+            font-size: 32px;
+            color: var(--gray500);
+            
+            &::before {
+                content: '';
+                background : url("../../public/images/title_60.png") 50% 50% no-repeat;
+                width : 30px;
+                height : 30px;
+                display: inline-block;
+            }
+
+            &::after {
+                content: '';
+                background : url("../../public/images/title2_60.png") 50% 50% no-repeat;
+                width : 30px;
+                height : 30px;
+                display: inline-block;
+            }
+        }
+    }
+    
 }
 
 .intro_art1_div {
@@ -165,7 +194,7 @@
             }
 
             span:nth-child(2) {
-                margin-left : -40px;
+                margin-left : -36px;
                 &::before {
                     content: '';
                     background: url("../../public/images/cake.png") no-repeat;
@@ -173,7 +202,7 @@
             }
 
             span:nth-child(3) {
-                margin-left: -22px;
+                margin-left: -14px;
                 &::before {
                     content: '';
                     background: url("../../public/images/phone.png") no-repeat;
@@ -181,6 +210,7 @@
             }
 
             span:nth-child(4) {
+                margin-left: 12px;
                 &::before {
                     content: '';
                     background: url("../../public/images/email.png") bottom no-repeat;
