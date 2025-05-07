@@ -2,6 +2,7 @@
 import styles from "../../css/layout.module.css";
 import localFont from "next/font/local";
 import { Intro_Profile } from "../component/ImageCompo";
+import { Intro_Down }    from "../component/ImageCompo";
 
 const pretendard = localFont({
     src : "../../fonts/Pretendard-Regular.woff",
@@ -40,3 +41,10 @@ export const Intro = () => {
         </div>
     )
 }
+
+export const IntroDown = () => {
+
+    return (
+            <Intro_Down className={styles.introDown_div}></Intro_Down>
+    )
+}  

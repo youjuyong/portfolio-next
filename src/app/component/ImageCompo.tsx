@@ -1,7 +1,12 @@
+'use client'
+
 import Image from "next/image";
+import { useState } from "react";
 import img from "../../../public/images/header_logo.png";
 import profile from "../../../public/images/photo1.png";
 import cake from "../../../public/images/cake.png";
+import intro_down from "../../../public/images/intro_down.png";
+import intro_down_fover from "../../../public/images/intro_down_fover.png";
 
 export const Header_Log = () => {
    
@@ -38,5 +43,26 @@ export const Profile_cake = () => {
             width = "20"
             height = "20"
         ></Image>
+    )
+}
+
+export const Intro_Down = (props : any) => {
+    const [ishovered, setIsHovered] = useState(false);
+
+    return (
+        <div 
+             className={props.className}
+        >
+            <span   onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+            >
+                <Image
+                    src = { ishovered === true ? intro_down_fover : intro_down  }
+                    alt = "아래로" 
+                    width = "40"
+                    height = "40"
+                ></Image>
+            </span>
+        </div>
     )
 }
