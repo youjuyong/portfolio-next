@@ -42,6 +42,36 @@ export const Intro = () => {
     )
 }
 
+export const IntroDetail = () => {
+    return (
+        <div className={styles.intro_detail_1}>
+            <dl>
+                <dt></dt>
+                <dd>
+                    <p>HTML 웹 표준을 준수합니다.</p>
+                    <p>웹 접근성 향상의 중요성과 항목에 대한 이해를 가지고 있습니다. </p>
+                    <p>반응형 웹 페이지 디자인을 지향합니다.</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>
+                </dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>
+                </dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>
+                </dd>
+            </dl>
+        </div>
+    )    
+}
+
 export const IntroDown = () => {
 
     return (
