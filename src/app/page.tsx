@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Header_Layout, Root_Layout, Content_Layout } from "../app/component/LayOutCompo";
-import { Intro, IntroDown, IntroDetail } from "./component/ContentCompo";
+import { Intro, IntroDown, IntroDetail, Skill } from "./component/ContentCompo";
 import "../css/globals.css";
 import "../css/header.css";
 import "../css/var.css";
@@ -17,7 +17,10 @@ export default function Home( {children} : any) {
           <IntroDetail></IntroDetail>
       </Content_Layout>
       <Content_Layout>
-         <IntroDown></IntroDown>
+          <IntroDown></IntroDown>
+      </Content_Layout>
+      <Content_Layout>
+          <Skill></Skill>
       </Content_Layout>
     </Root_Layout>
   );

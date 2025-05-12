@@ -1,7 +1,7 @@
 
 import styles from "../../css/layout.module.css";
 import localFont from "next/font/local";
-import { Intro_Profile } from "../component/ImageCompo";
+import { Intro_Profile, JavaScript, React, NextJs, Html, SpringBoot, NodeJs, TypeScript, Css, Github, AwsImage , Vercel } from "../component/ImageCompo";
 import { Intro_Down }    from "../component/ImageCompo";
 
 const pretendard = localFont({
@@ -13,7 +13,7 @@ const pretendard = localFont({
 
 export const Intro = () => {
     return (
-        <div className={`${styles.intro_layout} ${pretendard.className}`}>
+        <div className={`${styles.intro_layout} ${pretendard.className} intro`} id="Intro">
             <article className={styles.intro_art1}>
                 <div className={styles.intro_art1_div}>
                         <dl>
@@ -44,7 +44,7 @@ export const Intro = () => {
 
 export const IntroDetail = () => {
     return (
-        <div className={styles.intro_detail_1}>
+        <div className={`${styles.intro_detail_1} ${pretendard.className}`}>
             <dl>
                 <dt></dt>
                 <dd>
@@ -78,3 +78,25 @@ export const IntroDown = () => {
             <Intro_Down className={styles.introDown_div}></Intro_Down>
     )
 }  
+
+
+export const Skill = () => {
+    return (
+        <div className={`${styles.skillDiv} ${pretendard.className}`} id="Skill">
+            <div className={styles.skillInner}>
+                <section>
+                    <p>1. COMMON</p>
+                    <Github></Github><AwsImage></AwsImage><Vercel></Vercel>
+                </section>
+                <section>
+                    <p>2. FRONT</p>
+                    <JavaScript></JavaScript><React></React><NextJs></NextJs><Html></Html><NodeJs></NodeJs><TypeScript></TypeScript><Css></Css>
+                </section>
+                <section>
+                    <p>3. BACK</p>
+                    <SpringBoot></SpringBoot>
+                </section>
+            </div>
+        </div>
+    )
+}

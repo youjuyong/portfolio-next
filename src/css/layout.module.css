@@ -279,3 +279,36 @@
         margin-right : 0px !important;
     }
 }
+
+.skillDiv {
+    width : 100%;
+    border : 1px solid var(--gray300);
+    border-radius: 10px;
+}
+
+.skillInner {
+    padding : 30px;
+
+    p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    section {
+        
+        margin-bottom : 20px;
+        margin-top : 20px;
+        display: table;
+        position: relative;
+
+        img {
+            float: left;
+            height : 40px;
+            margin-right : 10px;
+        }
+    }
+
+    section:nth-child(0) {
+        margin-bottom: auto;
+    }
+}
