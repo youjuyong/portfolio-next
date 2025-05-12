@@ -32,7 +32,7 @@ const HeaderNavCompo = ( props : headerType ) => {
     }
 
     return (
-        <li><a onClick={(e) => liClickHandler(e)}>{props.title}</a></li>
+        <li onClick={(e) => liClickHandler(e)}><a>{props.title}</a></li>
     )
 }
 

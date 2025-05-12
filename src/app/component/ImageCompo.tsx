@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { useState } from "react";
+import { MouseEventHandler, useState } from "react";
 import img from "../../../public/images/header_logo.png";
 import profile from "../../../public/images/photo1.png";
 import cake from "../../../public/images/cake.png";
@@ -18,7 +18,7 @@ import css from "../../../public/images/css-663399.svg";
 import github from "../../../public/images/github-181717.svg";
 import aws from "../../../public/images/aws-232F3E.svg";
 import vercel from "../../../public/images/vercel-232F3E.svg";
-
+import grafImg from "../../../public/images/grafImg.jpg";
 
 export const Header_Log = () => {
    
@@ -58,8 +58,29 @@ export const Profile_cake = () => {
     )
 }
 
+interface scrollType {
+    top : number,
+    behavior : ScrollBehavior | undefined
+}
+
 export const Intro_Down = (props : any) => {
     const [ishovered, setIsHovered] = useState(false);
+
+    const clickHandler = ( e : any) => {
+        const location = document.querySelector('#Skill') as HTMLElement;
+
+        if ( location !== null ) 
+        {
+
+            const option:scrollType = {
+                     top : location.offsetTop - 100,
+                behavior : 'smooth'
+            }
+
+            window.scrollTo(option);
+
+        }
+    }
 
     return (
         <div 
@@ -67,6 +88,7 @@ export const Intro_Down = (props : any) => {
         >
             <span   onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
+                    onClick={(e) => clickHandler(e)}
             >
                 <Image
                     src = { ishovered === true ? intro_down_fover : intro_down  }
@@ -119,7 +141,6 @@ export const Html = () => {
         </Image>
     )
 }
-
 
 export const NodeJs = () => {
     
@@ -185,5 +206,14 @@ export const Vercel = () => {
             alt="vercel"
             width="100"
             height="80"></Image>
+    )
+}
+
+export const Project_GuriDaek = () => {
+    return (
+        <Image src={grafImg}
+               alt="구리댁닷컴"
+               width="302"
+               height="224"></Image>
     )
 }
