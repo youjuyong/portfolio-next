@@ -3,6 +3,7 @@ import styles from "../../css/layout.module.css";
 import localFont from "next/font/local";
 import { Intro_Profile, JavaScript, React, NextJs, Html, SpringBoot, NodeJs, TypeScript, Css, Github, AwsImage , Vercel, Project_GuriDaek } from "../component/ImageCompo";
 import { Intro_Down }    from "../component/ImageCompo";
+import { Content_Title_Div } from "./ClientComponent/StyledCompo";
 
 const pretendard = localFont({
     src : "../../fonts/Pretendard-Regular.woff",
@@ -11,9 +12,22 @@ const pretendard = localFont({
     variable: "--font_pretend"
 });
 
+interface content_title {
+    title : string,
+    id : string,
+    margintop : string
+}
+export function Content_Title (props :  content_title) {
+    return (
+        <Content_Title_Div margintop={props.margintop} id={props.id}>
+            <p>{props.title}</p>
+        </Content_Title_Div>
+    )
+}
+
 export const Intro = () => {
     return (
-        <div className={`${styles.intro_layout} ${pretendard.className} intro`} id="Intro">
+        <div className={`${styles.intro_layout} ${pretendard.className} intro`}>
             <article className={styles.intro_art1}>
                 <div className={styles.intro_art1_div}>
                         <dl>
@@ -82,7 +96,7 @@ export const IntroDown = () => {
 
 export const Skill = () => {
     return (
-        <div className={`${styles.skillDiv} ${pretendard.className}`} id="Skill">
+        <div className={`${styles.skillDiv} ${pretendard.className}`}>
             <div className={styles.skillInner}>
                 <section>
                     <p>1. COMMON</p>
@@ -103,7 +117,7 @@ export const Skill = () => {
 
 export const Project = () => {
     return (
-        <div className={`${styles.projectItemsDiv}`} id="Project" >
+        <div className={`${styles.projectItemsDiv}`} >
             <div className={styles.items}>
                 <ul>
                     <li>

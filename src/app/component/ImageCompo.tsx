@@ -67,7 +67,7 @@ export const Intro_Down = (props : any) => {
     const [ishovered, setIsHovered] = useState(false);
 
     const clickHandler = ( e : any) => {
-        const location = document.querySelector('#Skill') as HTMLElement;
+        const location = document.querySelector('#SKILL') as HTMLElement;
 
         if ( location !== null ) 
         {

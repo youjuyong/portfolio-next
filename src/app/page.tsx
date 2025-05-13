@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Header_Layout, Root_Layout, Content_Layout } from "../app/component/LayOutCompo";
-import { Intro, IntroDown, IntroDetail, Skill, Project } from "./component/ContentCompo";
+import { Intro, IntroDown, IntroDetail, Skill, Project, Content_Title } from "./component/ContentCompo";
 import "../css/globals.css";
 import "../css/header.css";
 import "../css/var.css";
@@ -11,6 +11,7 @@ export default function Home( {children} : any) {
     <Root_Layout>
       <Header_Layout/>
       <Content_Layout>
+          <Content_Title title="INTRO" id={"INTRO"} margintop={'80px'}></Content_Title>
           <Intro></Intro>
       </Content_Layout>
       <Content_Layout>
@@ -20,9 +21,11 @@ export default function Home( {children} : any) {
           <IntroDown></IntroDown>
       </Content_Layout>
       <Content_Layout>
+          <Content_Title title="SKILL" id={"SKILL"} margintop={'0px'}></Content_Title>
           <Skill></Skill>
       </Content_Layout>
       <Content_Layout>
+          <Content_Title title="PROJECT" id={"PROJECT"} margintop={'0px'}></Content_Title>
           <Project></Project>
       </Content_Layout>
     </Root_Layout>

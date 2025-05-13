@@ -86,6 +86,17 @@
     width : 1220px;
 }
 
+.content_Title_Layout {
+    font-size: 32px;
+    color : var(--orange700);
+    font-weight: 700;
+    padding-left : 10px;
+    margin-bottom: 20px;
+    border-left : 10px solid var(--orange700); 
+}
+
+
+
 .intro_layout {
     width : 100%;
     position: relative;
@@ -95,7 +106,6 @@
     box-shadow: 2px 3px 5px 0px var(--gray300);
     overflow: hidden;
     clear: both;
-    margin-top: 80px;
 }
 
 .intro_art1 {

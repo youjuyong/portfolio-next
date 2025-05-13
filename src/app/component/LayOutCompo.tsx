@@ -20,10 +20,10 @@ export function Header_Layout () {
                 </div>
                 <nav className = { styles.header_nav } role="navigation" aria-label='헤더 메뉴'>
                     <ul className = { styles.header_nav_ul }>
-                        <HeaderNav title="Intro"></HeaderNav>
-                        <HeaderNav title="Career"></HeaderNav>
-                        <HeaderNav title="Skill"></HeaderNav>
-                        <HeaderNav title="Project"></HeaderNav>
+                        <HeaderNav title="INTRO"></HeaderNav>
+                        <HeaderNav title="CAREER"></HeaderNav>
+                        <HeaderNav title="SKILL"></HeaderNav>
+                        <HeaderNav title="PROJECT"></HeaderNav>
                     </ul>
                 </nav>
             </div>
