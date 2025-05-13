@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { Header_Layout, Root_Layout, Content_Layout } from "../app/component/LayOutCompo";
-import { Intro, IntroDown, IntroDetail, Skill, Project, Content_Title } from "./component/ContentCompo";
+import { Intro, IntroDown, IntroDetail, Skill, Content_Title } from "./component/ContentCompo";
+import { Project } from "../app/component/ClientComponent/Project";
 import "../css/globals.css";
 import "../css/header.css";
 import "../css/var.css";
 import "../css/mobile.css";
+import "../css/__modalCss.css";
 
 export default function Home( {children} : any) {
   return (

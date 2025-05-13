@@ -29,12 +29,27 @@
             margin : 0 auto;
             width: 80%;
             margin-bottom: 30px;
+
+            p {
+                &::before {
+                    display : none;
+                }
+            }
         }
-        
        
         dl:nth-child(4) {
             margin-right : auto !important;
         }
+    }
+
+    .layout-module__0iApWW__skillDiv {
+        margin-left : 10px;
+        margin-right : 50px;
+        width : 97% !important;
+    }
+
+    .sc-bXdtCk  {
+        margin-left : 30px;
     }
 
     dd {

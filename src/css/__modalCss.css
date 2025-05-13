@@ -1,0 +1,521 @@
+.modal-dialog input, .modal-dialog select {
+    width: 100%
+}
+
+.modal-dialog.popup_bitplus input, .modal-dialog.popup_bitplus select {
+    width: 130px;
+}
+
+.modal-dialog .absolutetable .abtable tbody tr {
+    border-bottom: 1px solid #434448;
+}
+
+.modal-dialog .com {
+    padding-right: 12px;
+}
+
+.modal-dialog .poptable th {
+    padding: 0 12px 0 5px
+}
+
+.modal-content {
+    position: relative;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(29,29,32,0.9);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+  }
+
+.modal-header {position: relative; background:rgba(40,40,40); padding: 0 10px; text-align: left; min-height: 16.42857143px; height: 30px; line-height: 30px; border-bottom: 1px solid #575c62;}
+.modal-header h2{color: #fff; font-size: 14px; height: 30px; line-height: 28px; font-weight: 400}
+
+.modal-header .close {position: absolute; right: 0; top: 0; width: 30px; height: 30px; text-indent:-99999px; background: url(../../public/images/pop_close.png)center no-repeat; box-shadow: none;}
+.modal-header .close:hover{background: url(../../public/images/pop_close_hover.png)center no-repeat;}
+
+.popcontent{width: 100%; height:100%;min-height: 50px; background:#ddd; padding:6px 10px 58px 10px; position: relative;}
+
+/*회원 추가*/
+.popup_bitplus {
+    width: 100%;
+}
+
+.popup_bitplus .popcontent {
+    height: 552px;
+    padding: 0 10px 58px 10px;
+}
+
+.buttonset {
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 32px;
+    text-align: center;
+
+    button {
+        height: 100%;
+        font-size: 13px;
+        color: #fff;
+        padding: 0 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        background : #4f5158;
+        border-radius : 5px;
+        margin : 0 2px 0 1px;
+    }
+
+   
+    button:hover {
+        background: #5473c3;
+    }
+
+    button:active {
+        background: #32426c;
+    }
+}
+
+.poplinepaddingbox {
+    width: 100%;
+    padding: 5px 0 10px 0;
+    background: #3a3b3e;
+    border: 1px solid #2e2f30;
+}
+
+.poptable {
+    width: 100%;
+}
+
+.poptable th {
+    color: #7dc3ff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    line-height: 15px;
+    padding: 0 0 0 5px
+}
+
+.popup_bitplus .poptable th {
+    width: 142px;
+}
+
+.popup_bitplus .poptable.poptable_bitplus th {
+    width: auto;
+}
+
+.poptable button {
+    margin-left: 3px
+}
+
+.poptable td {
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    position: relative;
+}
+
+.modal-dialog.popup_bitplus input, .modal-dialog.popup_bitplus select {
+    width: 130px;
+}
+
+.popup_bitplus {
+    input {
+        color: #fff;
+        appearance: none;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid var(--black);
+        background: none;
+        height : 26px;
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+
+    .onajiIdCheck {
+        height: 100%;
+        font-size: 13px;
+        color: #fff;
+        padding: 0 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        background : #4f5158;
+        border-radius : 5px;
+        margin : 0 1px 0 7px;
+        position: absolute;
+        height : 26px;
+    }
+
+    .onajiIdCheck:hover {
+        background: #5473c3;
+    }
+
+    .onajiIdCheck:active {
+        background: #32426c;
+    }
+
+    .checkPersonTd {
+        top :2px;
+        span {
+            font-size: 14px;
+            position: absolute;
+            top: 11px;
+            
+        }
+        input {
+            width:80px !important;
+        }
+
+        .checkPerson1 {
+
+        }
+
+        .checkPerson2 {
+           
+            left     : -160px;
+            position : absolute;
+            top      : 5px;
+        }
+
+        .checkPersonSpan1 {
+            top : 9px;
+        }
+
+        .checkPersonSpan2 {
+            left : -185px;
+            top  : 9px;
+        }
+    }
+}
+.popcontent h2 {
+    width: 100%;
+    background: url(../../public/images/h2arrow.png) 2px 18px no-repeat;
+    color: #fff;
+    height: 39px;
+    font-size: 15px;
+    padding: 3px 0 0 14px;
+    line-height: 37px;
+    font-weight: normal;
+}
+
+.popup_bitplus .poptable2 input, .popup_bitplus .poptable2 select {
+    width: 165px;
+}
+
+/*탈것 평점*/
+.popup_horseReview {
+    width: 100%;
+    height : 100%;
+
+    .horse-modal-content {
+        position: relative;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(29,29,32,0.9);
+        border-radius: 6px;
+        outline: 0;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+        height: 100%;
+    }
+    .horse_popcontent {
+        width      : 100%; 
+        height     : 100%;
+        background : #fff; 
+        position   : relative;
+        padding : 20px;
+
+        h2 {
+                width : 100%;
+           background : url(../../public/images/h2arrow.png) 2px 12px no-repeat;
+                color : var(--white);
+               height : 39px;
+            font-size : 15px;
+              padding : 1px 0 0 14px;
+          line-height : 37px;
+          font-weight : normal;
+        }
+
+
+        .popchild {
+              display : inline-block;
+                width : 446px;
+               height : 650px;
+               border : 1px solid #ddd;
+          margin-left : 6px;
+          border-radius : 10px;
+        }
+
+        .reviewImgDiv    {
+            text-align : center ;
+            
+            img {
+                display     : block;
+                margin-top  : 50%;
+                margin-left : 210px;
+
+            }
+        }
+
+        .reviewDetailDiv {
+            overflow : hidden;
+
+            table {
+                border-collapse : collapse;
+                border          : 0;
+                font-size       : 13px;
+                
+                th,td {
+                    border            : 1px solid #ddd;
+                    border-top-color  : #eeeeee;
+                    background-clip   : padding-box;
+                }
+
+                th {
+                    width : 120px;
+                }
+
+                .horseBurf    { height: 100px; };
+                .horsePassive { height: 130px; };
+                .horseSkill   { height: 147px; };
+
+                .magic {
+                    color : var(--purple400);
+                    font-weight: 700;
+                    
+                }
+                td {
+                    height : 27px;
+                    text-align: center;
+                }
+                
+            }
+        }
+
+        .reviewContentDiv {
+            overflow: hidden;
+            float: inline-end;
+            .contentHeader {
+                display: block;
+                position      : relative; 
+                background    :rgba(40,40,40); 
+                padding       : 0 10px; 
+                text-align    : left; 
+                min-height    : 16.42857143px; 
+                height        : 30px; 
+                line-height   : 30px;
+
+                h2 {
+                     color: #fff;
+                     font-size: 14px;
+                     height: 30px;
+                     line-height: 28px; 
+                     font-weight: 400
+                }
+            }
+
+            .contentMain {
+                height : 438px;
+
+                ul {
+                    height : 100%;
+                    overflow-y : scroll;
+                }
+                li {
+                    width  : 100%; 
+                    font-size:16px; 
+                    font-weight: bold; 
+                    padding: 10px 0!important; 
+                    border: 1px dotted #d7d7d7; 
+                    position: relative;
+                    margin-bottom : 5px;
+
+                    img {
+                        margin-top    : 12px;
+                        margin-left : 10px;
+                        margin-right : 5px;
+                    }
+
+                    .nickNameSpan {
+                        padding-top : 19px;
+                        margin-left : 5px;
+                    }
+                }
+
+                .reviewText {
+                    height : auto;
+                    line-height: 23px;
+                    color : #000;
+                    padding : 6px 0 6px 10px;
+                    right : 0px;
+                    top: 10px;
+                    bottom : 0;
+                    left : 57px;
+                    overflow: hidden;
+                    display : inline-table;
+
+                    .startReviewImgDiv {
+                        font-size: 14px;
+                        padding-left : 10px;
+                        margin-top: 20px;
+                        img {
+                            margin-top   : 0 !important;
+                            margin-left  : 0 !important;
+                            margin-right : 0 !important;
+                        }
+                    }
+                    .reViewSpan {
+                        font-size: 13px;
+                        margin-top : 10px;
+                        width : 300px;
+                        margin-left: 5px;
+                        font-weight: 400 !important;
+                    }
+                    .reviewDateDiv {
+                        display: flex;
+                        
+                        button {
+                            height: 25px;
+                            font-size: 13px;
+                            color: #fff;
+                            padding: 0 20px;
+                            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+                            background : #c24242;
+                            border-radius : 5px;
+                            margin-top: 8px;
+                        }
+
+                        .dateSpan {
+                            width : 130px !important;
+                        }
+                    }
+                    span {
+                        font-size: 15px;
+                        display: flex; 
+                        width: 100%; 
+                        overflow: hidden; 
+                        word-break :break-all;
+                       
+                    }
+                    
+                }
+            }
+
+            .contentInput {
+                border-top: 1px solid #ddd;
+
+                .content {
+                    padding: 5px;
+                    line-height: 20px;
+
+                    .contentDiv1 {
+                        display : flex;
+                        justify-content: flex-start;
+
+                        .content_textP2 {
+                            color: #979797;
+                            font-size : 14px;
+                        }
+
+                        .content_star {
+                                margin-left: 10px;
+                                height: 25px;
+                        }
+
+                        .content_star_span {
+                            margin-left: 10px;
+                        }
+                        
+                    }
+                }
+
+                .reviewtextarea {
+                    width  : 100%;
+                    height : 90px;
+                    border-radius : 10px;
+                    padding : 10px
+                }
+
+                button {
+                    height: 25px;
+                    font-size: 13px;
+                    color: #fff;
+                    padding: 0 20px;
+                    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+                    background : #4f5158;
+                    border-radius : 5px;
+                    margin-left : 370px;
+                    margin-top : 10px
+                }
+
+                button:hover {
+                    background: #5473c3;
+                }
+            
+                button:active {
+                    background: #32426c;
+                }
+            }
+        }
+
+    }
+
+    .poptable th {
+        width: 142px;
+    }
+
+    input {
+        color: #fff;
+        appearance: none;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid var(--black);
+        background: none;
+        height : 26px;
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .horseRevie_buttonset {
+        bottom: 45px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        height: 32px;
+        text-align: center;
+    
+        button {
+            height: 100%;
+            font-size: 13px;
+            color: #fff;
+            padding: 0 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+            background : #4f5158;
+            border-radius : 5px;
+            margin : 0 2px 0 1px;
+        }
+    
+       
+        button:hover {
+            background: #5473c3;
+        }
+    
+        button:active {
+            background: #32426c;
+        }
+    }
+
+
+}
+
+.workflow-designer--gui {
+   display: ruby-text;
+}
