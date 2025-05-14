@@ -9,7 +9,7 @@ export const ProjectModalCss: ReactModal.Styles = {
     },
     content: {
         width: "1200px",
-        height: "1200px",
+        height: "900px",
         zIndex: "99999999",
         position: "absolute",
         top: "500px",
@@ -21,6 +21,6 @@ export const ProjectModalCss: ReactModal.Styles = {
         overflow: "auto",
         padding: "0px",
         border: "",
-        marginTop : "150px"
+        marginTop : "-20px"
     },
 };

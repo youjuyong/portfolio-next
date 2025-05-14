@@ -19,6 +19,9 @@ import github from "../../../public/images/github-181717.svg";
 import aws from "../../../public/images/aws-232F3E.svg";
 import vercel from "../../../public/images/vercel-232F3E.svg";
 import grafImg from "../../../public/images/grafImg.jpg";
+import  goonzu_title1 from  "../../../public/images/project_img/goonzu_title1.png";
+import  goonzu_title2 from  "../../../public/images/project_img/goonzu_title2.png";
+import  goonzu_title3 from  "../../../public/images/project_img/goonzu_title3.png";
 
 export const Header_Log = () => {
    
@@ -215,5 +218,30 @@ export const Project_GuriDaek = () => {
                alt="구리댁닷컴"
                width="302"
                height="224"></Image>
+    )
+}
+
+export const Project_GuriDaek_Img1 = () => {
+    return (
+        <Image src={goonzu_title1}
+                alt="구닷 이미지1"
+               width="575"
+               height="300"></Image>
+    )
+}
+export const Project_GuriDaek_Img2 = () => {
+    return (
+        <Image src={goonzu_title2}
+                alt="구닷 이미지2"
+               width="566"
+               height="300"></Image>
+    )
+}
+export const Project_GuriDaek_Img3 = () => {
+    return (
+        <Image src={goonzu_title3}
+                alt="구닷 이미지3"
+               width="650"
+               height="300"></Image>
     )
 }

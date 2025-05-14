@@ -15,3 +15,12 @@ export function Content_Layout ( { children } : any ) {
         </div>
     )
 }
+
+// 프로젝트 소개 레이아웃
+export function Project_Section_Layout ( { children } : any ) {
+    return (
+         <section className={styles.content_section1}>
+            {children}
+         </section>
+    )
+}

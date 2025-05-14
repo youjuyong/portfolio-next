@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   title: "YJY 포토폴리오",
-  description: "YOU JUYONG의 포토폴리오 입니다.",
+  description: "YOU JUYONG 유주용의 포토폴리오 입니다.",
 };
 
 export const viewport : Viewport = {

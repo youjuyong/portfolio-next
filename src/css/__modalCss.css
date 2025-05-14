@@ -28,6 +28,7 @@
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
       overflow: hidden;
+      height: 100%;
   }
 
 .modal-header {position: relative; background:rgba(40,40,40); padding: 0 10px; text-align: left; min-height: 16.42857143px; height: 30px; line-height: 30px; border-bottom: 1px solid #575c62;}
@@ -41,6 +42,7 @@
 /*회원 추가*/
 .popup_bitplus {
     width: 100%;
+    height: 100%;
 }
 
 .popup_bitplus .popcontent {
