@@ -55,6 +55,21 @@
     dd {
         padding : 10px;
     }
+
+    .layout-module__0iApWW__careerDiv {
+          margin-right : 50px;
+        width : 97% !important;
+        margin-left : 10px;
+    }
+
+    .layout-module__0iApWW__header_nav_ul {
+        display : none;
+    }
+
+    .layout-module__0iApWW__mobile_btn {
+        display : block !important;
+    }
+
 }
 
 @media (max-width: 360px) {

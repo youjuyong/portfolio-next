@@ -12,8 +12,22 @@
     margin-left : 10px;
 }
 
-.header_nav {
-    
+.mobile_btn {
+    display: none;
+    background: url("../../public/images/mo_menu.png")  center no-repeat;
+    position: absolute;
+    width: 40px;
+    height : 40px;
+    line-height: 40px;
+    text-indent: -999999999999999999px;
+    z-index: 3;
+    color: var(--black);
+    cursor: pointer;
+    right : 10px;
+}
+
+.mobile_cancle_btn {
+    background: url("../../public/images/menu_close.png")  center no-repeat  !important;
 }
 
 .header_nav_ul {
@@ -78,6 +92,47 @@
        
     }
    
+}
+
+.header_mobile_nav {
+    display: block;
+    background : #fff;
+    top : 80px;
+    z-index : 999;
+    height : auto;
+    width : 100%;
+    margin-left: 0;
+    left : 0;
+    text-align : center;
+    position : absolute;
+    box-shadow : 0 3px 4px 0 rgba(0,0,0,0.3);
+
+    li {
+        cursor: pointer;
+         width: 50%;
+         margin: 0;
+         display: block;
+         float: left;
+         border:1px solid #d7d7d7;
+         background: var(--main100);
+
+         a {
+                height: 52px;
+                line-height: 52px;
+                color : #000;
+                display: block;
+                font-weight: 700;
+         }
+
+         a:hover {
+               text-decoration: underline; 
+         }
+
+         button:hover {
+                text-decoration: underline; 
+         }
+
+    }
 }
 
 .content_layout {
@@ -303,6 +358,46 @@
 
     dl:nth-child(4) {
         margin-right : 0px !important;
+    }
+}
+
+.careerDiv {
+    width : 100%;
+    border : 1px solid var(--gray300);
+    border-radius: 10px;
+}
+
+.carrerInner {
+    padding : 30px;
+
+    .carrerInnerLectang {
+            height : 100px;
+            border : 1px solid var(--blue400); 
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 4px;
+    }
+
+    ul {
+
+        li {
+       
+            line-height: 50px;
+
+            .carrerInnerTang {
+                width : 10px;
+                height : 10px;
+                border-radius: 50%;
+                background-color: var(--blue400);
+                float: left;
+                position: relative;
+                margin-top: 20px;
+            }
+
+            span {
+                margin-left: 10px;
+            }
+        }
     }
 }
 

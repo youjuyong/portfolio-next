@@ -94,6 +94,21 @@ export const IntroDown = () => {
 }  
 
 
+export const Career = () => {
+    return (
+        <div className={`${styles.careerDiv} ${pretendard.className}`}>
+              <div className={styles.carrerInner}>
+                    <div className={styles.carrerInnerLectang}></div>
+                    <ul>
+                        <li><p className={styles.carrerInnerTang}></p><span>TEST1</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>TEST2</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>TEST3</span></li>
+                    </ul>
+              </div>
+        </div>
+    )
+}
+
 export const Skill = () => {
     return (
         <div className={`${styles.skillDiv} ${pretendard.className}`}>
