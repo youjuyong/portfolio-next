@@ -106,6 +106,7 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                                     <p>FrontEnd : React, JavaScript</p>
                                     <p>BackEnd  : SpringBoot, JAVA, JPA</p>
                                     <p>DB : AWS RDS( Mysql 17)</p>
+                                    <p>SSL : AWS Certificate Manager</p>
                                     <p>Front 배포 : AWS S3 Bucket</p>
                                     <p>BackEnd 배포 : AWS EC2 ( Ubuntu 16GB )</p>
                                     <p>Swagger API : <a href="https://api.guriguri.shop/api/swagger-ui/index.html">https://api.guriguri.shop/api/swagger-ui/index.html</a></p>
