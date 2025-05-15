@@ -83,6 +83,7 @@ export function Header_Layout_CP () {
                                                 <ul>
                                                     <HeaderNavCompo title="INTRO"></HeaderNavCompo>
                                                     <HeaderNavCompo title="CAREER"></HeaderNavCompo>
+                                                    <HeaderNavCompo title="CERTIFICATE"></HeaderNavCompo>
                                                     <HeaderNavCompo title="SKILL"></HeaderNavCompo>
                                                     <HeaderNavCompo title="PROJECT"></HeaderNavCompo>
                                                 </ul>
@@ -91,6 +92,7 @@ export function Header_Layout_CP () {
                                                 <ul className = { styles.header_nav_ul }>
                                                     <HeaderNavCompo title="INTRO"></HeaderNavCompo>
                                                     <HeaderNavCompo title="CAREER"></HeaderNavCompo>
+                                                    <HeaderNavCompo title="CERTIFICATE"></HeaderNavCompo>
                                                     <HeaderNavCompo title="SKILL"></HeaderNavCompo>
                                                     <HeaderNavCompo title="PROJECT"></HeaderNavCompo>
                                                 </ul>
