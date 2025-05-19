@@ -26,6 +26,7 @@ export function Content_Title (props :  content_title) {
 }
 
 export const Intro = () => {
+
     return (
         <div className={`${styles.intro_layout} ${pretendard.className} intro`}>
             <article className={styles.intro_art1}>
@@ -40,7 +41,6 @@ export const Intro = () => {
                                     <span>Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    : 1992. 05. 18</span>
                                     <span>Phone &nbsp;&nbsp; : 010-2966-3366</span>
                                     <span>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   : dbwndyd518@gmail.com</span>
-                                    <span>Address : 서울시 은평구</span>
                                     <span>Github&nbsp;&nbsp;&nbsp;  : <a href="https://github.com/youjuyong">https://github.com/youjuyong</a></span>
                                 </div>
                             </dd>
@@ -49,8 +49,10 @@ export const Intro = () => {
             </article>
             <article className={styles.intro_art2}>
                 <div className={styles.intro_art2_div}>
-                    <h1>천천히 꾸준하게 발전하자</h1>
-                    <p></p>
+                    <h1>꾸준하게 발전하는 개발자</h1>
+                    <p>안녕하세요. 
+                            '사용자 중심' 효율적인 인터페이스를 구현하는 프론트엔드 개발자 유주용 입니다.
+                    </p> 
                     <p></p>
                 </div>
             </article>
@@ -72,19 +74,21 @@ export const IntroDetail = () => {
             <dl>
                 <dt></dt>
                 <dd>
-                    <p>검색 엔진 최적화(SEO) .</p>
-                    <p>지연 로딩을 적절히 사용하여 검색엔진 최적화와 사용자 경험(UX)을 향상 시키는것을 지향합니다.</p>
-                    <p>API 요청 시 응답까지 스켈레톤CSS와 Loader를 적절히 사용하여 사용자 경험을 증가시킵니다. </p>
+                    <p>검색 엔진 최적화(SEO) 경험이 있습니다.</p>
+                    <p>지연 로딩을 사용하여 검색엔진 최적화와 사용자 경험(UX)을 향상 시키는것을 지향합니다.</p>
+                    <p>Styled.Component를 사용하여 재사용 가능한 디자인 설계를 추구합니다.</p>
                 </dd>
             </dl>
             <dl>
                 <dt></dt>
                 <dd>
+                    <p>XSS 공격, SQL Injection 공격 등 웹사이트 보안 취약점 항목을 이해하고 있습니다.</p>
                 </dd>
             </dl>
             <dl>
                 <dt></dt>
                 <dd>
+                    <p></p>
                 </dd>
             </dl>
         </div>

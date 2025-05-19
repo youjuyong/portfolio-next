@@ -184,10 +184,16 @@
         position: inherit;
         text-align: center;
         
+        p {
+            position: relative;
+            display : flex;
+            align-items: center;
+        }
         h1 {
             font-weight: 700;
             font-size: 32px;
             color: var(--gray500);
+            margin-bottom: 1.3rem;
             
             &::before {
                 content: '';
@@ -204,6 +210,14 @@
                 height : 30px;
                 display: inline-block;
             }
+        }
+
+
+        .intro_page_div1 {
+            width : 230px;
+            position: relative;
+            margin-right : 10px;
+            margin-left : 10px;
         }
     }
     
@@ -284,15 +298,8 @@
                 }
             }
 
-            span:nth-child(5) {
-                margin-left: -40px;
-                &::before {
-                    content: '';
-                    background: url("../../public/images/email.png") bottom no-repeat;
-                }
-            }
 
-             span:nth-child(6) {
+             span:nth-child(5) {
                 margin-left: 12px;
                 &::before {
                     content: '';
@@ -612,7 +619,7 @@
     }
 
     .project_content_inner_img_div {
-        height : 300px;
+        height : auto;
         width : 100%;
         border : 1px solid var(--black);
 
@@ -627,10 +634,10 @@
         margin-top : 20px;
 
         p {
-            font-size:  18px;
+            font-size:  17px;
             font-family: 'Pretendard-Regular';
             letter-spacing: 0.5px;
-            line-height: 40px;
+            line-height: 32px;
         }
 
         a {
@@ -638,4 +645,6 @@
              text-decoration: underline;
         }
     }
+    
 }
+

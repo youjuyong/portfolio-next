@@ -1,10 +1,11 @@
 'use client'
 
 import styles from "../../../css/layout.module.css";
+import { Project_Content_Image_Div } from "./StyledCompo";
 import { Project_GuriDaek } from "../../component/ImageCompo";
 import { Project_Modal_Cp } from "../modal/ProjectModal";
 import { Project_Section_Layout } from "../LayOutCompo";
-import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_GuriDaek_Img3 } from "../ImageCompo";
+import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png } from "../ImageCompo";
 import { useState } from "react";
 
 type modalType = {
@@ -78,10 +79,10 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개<a href="https://guridaek.com">( https://guridaek.com )</a></h1>   
-                                <div className={styles.project_content_inner_img_div}>
+                                    <Project_Content_Image_Div height={"300px"}>
                                         <Project_GuriDaek_Img1></Project_GuriDaek_Img1>
                                         <Project_GuriDaek_Img2></Project_GuriDaek_Img2>
-                                </div>
+                                    </Project_Content_Image_Div>
                                 <div className={styles.project_content_inner_detail_div}>
                                     <p>
                                         온라인 RPG 게임 군주온라인 ( 정보, 마을 관리 ) 사이트 입니다. 한창 즐겨 했던 온라인 게임 에서 새로운 주민, 초보자들에게 장비 대여 또는 게임정보를 
@@ -123,6 +124,12 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                                     <p>React 차트로 주민수 통계 정보 표출</p>
                                     <p>React Swiper로 슬라이드 구현</p>
                              </div>
+                          </Project_Section_Layout>
+                          <Project_Section_Layout>
+                             <h1>ERD</h1>
+                             <Project_Content_Image_Div height={"780px"}>
+                                        <Project_Erd_Png></Project_Erd_Png>
+                            </Project_Content_Image_Div>
                           </Project_Section_Layout>
                         </div>
                     </div>

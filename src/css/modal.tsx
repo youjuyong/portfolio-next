@@ -21,6 +21,6 @@ export const ProjectModalCss: ReactModal.Styles = {
         overflow: "auto",
         padding: "0px",
         border: "",
-        marginTop : "-20px"
+        marginTop : "-30px"
     },
 };
