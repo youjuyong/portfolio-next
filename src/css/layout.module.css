@@ -184,16 +184,25 @@
         position: inherit;
         text-align: center;
         
-        p {
-            position: relative;
-            display : flex;
-            align-items: center;
+        span {
+            font-size: 28px;
+            font-weight: solid;
+            color : var(--purple500)
         }
+        p {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            align-items: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
         h1 {
             font-weight: 700;
             font-size: 32px;
             color: var(--gray500);
-            margin-bottom: 1.3rem;
+            margin-bottom: 2rem;
             
             &::before {
                 content: '';

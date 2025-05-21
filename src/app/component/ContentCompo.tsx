@@ -49,11 +49,13 @@ export const Intro = () => {
             </article>
             <article className={styles.intro_art2}>
                 <div className={styles.intro_art2_div}>
-                    <h1>꾸준하게 발전하는 개발자</h1>
-                    <p>안녕하세요. 
-                            '사용자 중심' 효율적인 인터페이스를 구현하는 프론트엔드 개발자 유주용 입니다.
+                    <h1>천천히 꾸준하게 쌓아가자</h1>
+                    <p>안녕하세요. 항상 새로움을 추구하고  &nbsp;
+                           <span>'사용자 중심'</span>&nbsp;의 인터페이스를 구현하는 
                     </p> 
-                    <p></p>
+                    <p>프론트엔드 개발자 유주용입니다.</p>
+                    <p>새로운 기술들을 배워가며 사용자에게 효율적으로 데이터를 보여주고 </p>
+                    <p>사용자의 요구사항을 충족시키기 위해 끊임없이 고민하는 개발자입니다.</p>
                 </div>
             </article>
         </div>
@@ -74,7 +76,7 @@ export const IntroDetail = () => {
             <dl>
                 <dt></dt>
                 <dd>
-                    <p>검색 엔진 최적화(SEO) 경험이 있습니다.</p>
+                    <p>검색 엔진 최적화(SEO)를 지향합니다.</p>
                     <p>지연 로딩을 사용하여 검색엔진 최적화와 사용자 경험(UX)을 향상 시키는것을 지향합니다.</p>
                     <p>Styled.Component를 사용하여 재사용 가능한 디자인 설계를 추구합니다.</p>
                 </dd>
@@ -88,7 +90,8 @@ export const IntroDetail = () => {
             <dl>
                 <dt></dt>
                 <dd>
-                    <p></p>
+                    <p>서버 API의 데이터 처리, 원활한 의사소통을 통해 사용자에게 효율적인 데이터를 표출할 수 있습니다.</p>
+                    <p>자바스크립트 이벤트 루프, 클로저, ES6 문법, 프로토 타입을 이해하고 적용할 수 있습니다.</p>
                 </dd>
             </dl>
         </div>
@@ -111,11 +114,11 @@ export const Career = () => {
                     <ul>
                          <li><p className={styles.carrerInnerTang}></p><div><span>2019. 02 백석대학교 졸업</span></div></li>
                         <li><p className={styles.carrerInnerTang}></p><div><span>2022. 07 김포시 교통정보센터 홈페이지 메인페이지 개발</span></div></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2022. 11 안양시 스마트 스쿨존 지도 설정 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2023. 02 파주시 지능형 교통체계 스마트 교차로 카메라 WebRtc 영상,통계 표출 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2023. 10 경기도광주 교통정보센터 상황판, 홈페이지 개발</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>2022. 11 안양시 스마트 스쿨존 ITS 지도 설정 페이지 개발</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>2023. 02 파주시 지능형 교통체계 ITS 스마트 교차로 카메라 WebRtc 영상,통계 표출 페이지 개발</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>2023. 10 경기도광주 ITS 상황판, 홈페이지 개발</span></li>
                         <li><p className={styles.carrerInnerTang}></p><span>2024. 02 파주시 BIT 개선 사업 모니터링 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2024. 10 양주시 ITS 지능형 교통체계 상황판, 모니터링 개발</span></li>
+                        <li><p className={styles.carrerInnerTang}></p><span>2024. 10 양주시 지능형 교통체계 상황판, 모니터링 개발</span></li>
                         <li><p className={styles.carrerInnerTang}></p><span>2025. 01 사내 웹 BIT 프로그램 개발 ( WebSocket 기반 )</span></li>
                     </ul>
               </div>
