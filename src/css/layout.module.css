@@ -535,6 +535,10 @@
                         height  : 200px;
                         width   : 302px;
                         display : block;
+
+                        img {
+                            margin : '0 auto';
+                        }
                     }
 
                     .items_div_span_02 {

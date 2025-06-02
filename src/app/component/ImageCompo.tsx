@@ -23,6 +23,7 @@ import grafImg from "../../../public/images/grafImg.jpg";
 import goonzu_title1 from  "../../../public/images/project_img/goonzu_title1.png";
 import goonzu_title2 from  "../../../public/images/project_img/goonzu_title2.png";
 import goonzu_title3 from  "../../../public/images/project_img/goonzu_title3.png";
+import subway_main from  "../../../public/images/subway_main.jpg";
 
 export const Header_Log = () => {
    
@@ -71,7 +72,7 @@ export const Intro_Down = (props : any) => {
     const [ishovered, setIsHovered] = useState(false);
 
     const clickHandler = ( e : any) => {
-        const location = document.querySelector('#SKILL') as HTMLElement;
+        const location = document.querySelector('#CAREER') as HTMLElement;
 
         if ( location !== null ) 
         {
@@ -210,6 +211,15 @@ export const Vercel = () => {
             alt="vercel"
             width="100"
             height="80"></Image>
+    )
+}
+
+export const Project_Subway = () => {
+    return (
+        <Image src={subway_main}
+               alt="지하철 뉴맵"
+               width="100"
+               height="224"></Image>
     )
 }
 
