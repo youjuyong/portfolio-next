@@ -16,14 +16,16 @@ export const Content_Title_Div = styled.div<content_title_div>`
 `;
 
 interface content_img_div {
-    height : string
+    height : string,
+    marginLeft : string
 }
 export const Project_Content_Image_Div = styled.div<content_img_div>`
      height : ${(props) => props.height};
         width : 100%;
         border : 1px solid var(--black);
-
+       
         img {
             float: left;
+            margin-left : ${(props) => props.marginLeft};
         }
 `;

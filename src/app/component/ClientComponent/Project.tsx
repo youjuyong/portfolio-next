@@ -6,7 +6,7 @@ import { Project_GuriDaek } from "../../component/ImageCompo";
 import { Project_Subway } from "../../component/ImageCompo";
 import { Project_Modal_Cp } from "../modal/ProjectModal";
 import { Project_Section_Layout } from "../LayOutCompo";
-import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png } from "../ImageCompo";
+import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2 } from "../ImageCompo";
 import { useState } from "react";
 
 type modalType = {
@@ -52,7 +52,7 @@ export const Project = () => {
                                     <span className={styles.items_div_span_02_span}>구리댁닷컴</span>
                                 </span>
                                 <span className={styles.items_div_span_03}>
-                                    <span>2024.02 ~ 2024.05</span>
+                                    <span>2025.02 ~ 2025.05</span>
                                 </span>
                                 <span className={styles.items_div_span_04}>
                                     <span>군주온라인 정보사이트</span>
@@ -69,7 +69,7 @@ export const Project = () => {
                                     <span className={styles.items_div_span_02_span}>뉴맵</span>
                                 </span>
                                 <span className={styles.items_div_span_03}>
-                                    <span>2024.02 ~ 2024.05</span>
+                                    <span>2025.05 ~ </span>
                                 </span>
                                 <span className={styles.items_div_span_04}>
                                     <span>지하철 도착 정보 어플리케이션</span>
@@ -101,7 +101,7 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"}>
+                                    <Project_Content_Image_Div height={"300px"} marginLeft="0px">
                                         <Project_GuriDaek_Img1></Project_GuriDaek_Img1>
                                         <Project_GuriDaek_Img2></Project_GuriDaek_Img2>
                                     </Project_Content_Image_Div>
@@ -149,7 +149,7 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                           </Project_Section_Layout>
                           <Project_Section_Layout>
                              <h1>ERD</h1>
-                             <Project_Content_Image_Div height={"780px"}>
+                             <Project_Content_Image_Div height={"780px"} marginLeft="0px">
                                         <Project_Erd_Png></Project_Erd_Png>
                             </Project_Content_Image_Div>
                           </Project_Section_Layout>
@@ -165,22 +165,22 @@ const Subway_Container = (props : Container_type) => {
          <div className="modal-dialog popup_bitplus" role="document">
                     <div className="modal-content">
                          <div className="modal-header">
-                            <h2>구리댁닷컴</h2>
+                            <h2>뉴맵</h2>
                              <button type="button" className="close" data-dismiss="modal" onClick={() => {
                                 props.setModal({ modalValue : false, modalName : '' })
                             }}>닫기</button>
                          </div>
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
-                                <h1>프로젝트 소개<a href="https://guridaek.com">( https://guridaek.com )</a></h1>   
-                                    <Project_Content_Image_Div height={"300px"}>
-                                        <Project_GuriDaek_Img1></Project_GuriDaek_Img1>
-                                        <Project_GuriDaek_Img2></Project_GuriDaek_Img2>
+                                <h1>프로젝트 소개</h1>   
+                                    <Project_Content_Image_Div height={"300px"} marginLeft={"200px"} >
+                                        <Project_Subway></Project_Subway>
+                                        <SubWay_img1></SubWay_img1>
+                                        <SubWay_img2></SubWay_img2>
                                     </Project_Content_Image_Div>
                                 <div className={styles.project_content_inner_detail_div}>
                                     <p>
-                                        온라인 RPG 게임 군주온라인 ( 정보, 마을 관리 ) 사이트 입니다. 한창 즐겨 했던 온라인 게임 에서 새로운 주민, 초보자들에게 장비 대여 또는 게임정보를 
-                                        알려주기 위한 목적으로 만든 사이트입니다.
+                                        지하철 공공데이터 API를 이용하여 지하철 시간표, 도착정보를 알려 주는 어플리케이션. 조회한 지하철역의 환승 노선과 다음 열차의 예상 도착정보를 화면에 표출합니다.
                                     </p>
                                 </div>
                            </Project_Section_Layout>
@@ -188,7 +188,7 @@ const Subway_Container = (props : Container_type) => {
                              <h1>프로젝트 기간</h1>
                              <div className={styles.project_content_inner_detail_div}>
                                     <p>
-                                        2025.02.01 ~ 2025.05.01
+                                        2025.05 ~ 진행중
                                     </p>
                              </div>
                           </Project_Section_Layout>
@@ -198,32 +198,18 @@ const Subway_Container = (props : Container_type) => {
                            <Project_Section_Layout>
                                 <h1>개발 환경</h1>
                                 <div className={styles.project_content_inner_detail_div}>
-                                    <p>FrontEnd : React, JavaScript</p>
-                                    <p>BackEnd  : SpringBoot, JAVA, JPA</p>
+                                    <p>FrontEnd : React Native, Android Studio</p>
+                                    <p>BackEnd  : SpringBoot</p>
                                     <p>DB : AWS RDS( Mysql 17)</p>
-                                    <p>SSL : AWS Certificate Manager</p>
-                                    <p>Front 배포 : AWS S3 Bucket</p>
-                                    <p>BackEnd 배포 : AWS EC2 ( Ubuntu 16GB )</p>
-                                    <p>Swagger API : <a href="https://api.guriguri.shop/api/swagger-ui/index.html">https://api.guriguri.shop/api/swagger-ui/index.html</a></p>
+                                    <p>Front배포 : 구글 플레이 콘솔 심사중 </p>
                                 </div>
                            </Project_Section_Layout>
                           <Project_Section_Layout>
-                             <h1>주요 기술</h1>
+                             <h1>계획된 기능</h1>
                              <div className={styles.project_content_inner_detail_div}>
-                                    <p>JWT 웹토큰 기반 로그인</p>
-                                    <p>로그인시 회원정보 Redux로 상태 보관</p>
-                                    <p>React Node를 이용해 장비대여 가능 물품들 진열, 신청 기능</p>
-                                    <p>React Intersection Observer 라이브러리로 viewport에 들어온 객체만 다운로드 (리소스 관리)</p>
-                                    <p>에드센스 SEO 최적화를 위해 sitemap 자동 생성, 라우트 경로별 페이지 상세소개 metaTag 생성 </p>
-                                    <p>React 차트로 주민수 통계 정보 표출</p>
-                                    <p>React Swiper로 슬라이드 구현</p>
+                                    <p>카카오, 네이버를 통한 로그인기능</p>
+                                    <p>사람들이 자주 이용하는 노선 or 지하철 즐겨찾기 기능</p>
                              </div>
-                          </Project_Section_Layout>
-                          <Project_Section_Layout>
-                             <h1>ERD</h1>
-                             <Project_Content_Image_Div height={"780px"}>
-                                        <Project_Erd_Png></Project_Erd_Png>
-                            </Project_Content_Image_Div>
                           </Project_Section_Layout>
                         </div>
                     </div>

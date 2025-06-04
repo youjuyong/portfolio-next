@@ -535,9 +535,9 @@
                         height  : 200px;
                         width   : 302px;
                         display : block;
-
+                        text-align: center;
                         img {
-                            margin : '0 auto';
+                            margin : 0 auto;
                         }
                     }
 
