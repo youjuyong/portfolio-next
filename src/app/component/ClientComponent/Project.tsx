@@ -93,15 +93,15 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                 <div className="modal-dialog popup_bitplus" role="document">
                     <div className="modal-content">
                          <div className="modal-header">
-                            <h2>뉴맵</h2>
+                            <h2>구리댁닷컴</h2>
                              <button type="button" className="close" data-dismiss="modal" onClick={() => {
                                 props.setModal({ modalValue : false, modalName : '' })
                             }}>닫기</button>
                          </div>
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
-                                <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"} marginLeft="0px">
+                                <h1>프로젝트 소개<a href="https://guridaek.com">( https://guridaek.com )</a></h1>   
+                                    <Project_Content_Image_Div height={"300px"} marginleft="0px">
                                         <Project_GuriDaek_Img1></Project_GuriDaek_Img1>
                                         <Project_GuriDaek_Img2></Project_GuriDaek_Img2>
                                     </Project_Content_Image_Div>
@@ -149,7 +149,7 @@ const GuriDaeck_Container = ( props : Container_type ) => {
                           </Project_Section_Layout>
                           <Project_Section_Layout>
                              <h1>ERD</h1>
-                             <Project_Content_Image_Div height={"780px"} marginLeft="0px">
+                             <Project_Content_Image_Div height={"780px"} marginleft="0px">
                                         <Project_Erd_Png></Project_Erd_Png>
                             </Project_Content_Image_Div>
                           </Project_Section_Layout>
@@ -173,7 +173,7 @@ const Subway_Container = (props : Container_type) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"} marginLeft={"200px"} >
+                                    <Project_Content_Image_Div height={"300px"} marginleft={"200px"} >
                                         <Project_Subway></Project_Subway>
                                         <SubWay_img1></SubWay_img1>
                                         <SubWay_img2></SubWay_img2>

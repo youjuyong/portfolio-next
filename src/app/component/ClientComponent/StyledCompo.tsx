@@ -17,7 +17,7 @@ export const Content_Title_Div = styled.div<content_title_div>`
 
 interface content_img_div {
     height : string,
-    marginLeft : string
+    marginleft : string
 }
 export const Project_Content_Image_Div = styled.div<content_img_div>`
      height : ${(props) => props.height};
@@ -26,6 +26,6 @@ export const Project_Content_Image_Div = styled.div<content_img_div>`
        
         img {
             float: left;
-            margin-left : ${(props) => props.marginLeft};
+            margin-left : ${(props) => props.marginleft};
         }
 `;
