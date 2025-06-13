@@ -2,7 +2,7 @@
 import styles from "../../css/layout.module.css";
 import localFont from "next/font/local";
 import { Intro_Profile, JavaScript, React, NextJs, Html, SpringBoot, NodeJs, TypeScript, Css, Github, AwsImage , Vercel } from "../component/ImageCompo";
-import { Intro_Down }    from "../component/ImageCompo";
+import { Intro_Down, Career_Img }    from "../component/ImageCompo";
 import { Content_Title_Div } from "./ClientComponent/StyledCompo";
 
 const pretendard = localFont({
@@ -110,17 +110,14 @@ export const Career = () => {
     return (
         <div className={`${styles.careerDiv} ${pretendard.className}`}>
               <div className={styles.carrerInner}>
-                    <div className={styles.carrerInnerLectang}></div>
-                    <ul>
-                         <li><p className={styles.carrerInnerTang}></p><div><span>2019. 02 백석대학교 졸업</span></div></li>
-                        <li><p className={styles.carrerInnerTang}></p><div><span>2022. 07 김포시 교통정보센터 홈페이지 메인페이지 개발</span></div></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2022. 11 안양시 스마트 스쿨존 ITS 지도 설정 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2023. 02 파주시 지능형 교통체계 ITS 스마트 교차로 카메라 WebRtc 영상,통계 표출 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2023. 10 경기도광주 ITS 상황판, 홈페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2024. 02 파주시 BIT 개선 사업 모니터링 페이지 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2024. 10 양주시 지능형 교통체계 상황판, 모니터링 개발</span></li>
-                        <li><p className={styles.carrerInnerTang}></p><span>2025. 01 사내 웹 BIT 프로그램 개발 ( WebSocket 기반 )</span></li>
-                    </ul>
+                    <div className={styles.carrerInner_1}><Career_Img></Career_Img></div>
+                    <div className={styles.carrerInner_2}>
+                        <p className={styles.careerInner_p}>라온텍 ( 2022. 07 ~ )</p>
+                        <ul>
+                            <li><p className={styles.carrerInnerTang}></p><span>BIT 관제 모니터링 프로그램 개발 ( React, SpringBoot )</span></li>
+                            <li><p className={styles.carrerInnerTang}></p><span>교통 정보 통계, 소통정보 상황판 개발  </span></li>
+                        </ul>
+                    </div>
               </div>
         </div>
     )

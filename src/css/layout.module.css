@@ -411,7 +411,29 @@
 
 .carrerInner {
     padding : 30px;
+    position : relative;
+    display : flex;
 
+    ul {
+        width : 100%;
+    }
+    .carrerInner_1 {
+        float: left;
+        position : relative;
+        margin-top : 20px;
+        margin-right: 10px;
+    }
+
+    .carrerInner_2 {
+        float : left;
+        position : relative;
+
+        p {
+            font-size:  17px;
+            height : 30px;
+            font-family : 'Pretendard-Regular';
+        }
+    }
     .carrerInnerLectang {
             height : 350px;
             border : 1px solid var(--blue400); 
