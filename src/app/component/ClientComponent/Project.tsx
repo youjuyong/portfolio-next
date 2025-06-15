@@ -201,7 +201,6 @@ const Subway_Container = (props : Container_type) => {
                                     <p>FrontEnd : React Native, Android Studio</p>
                                     <p>BackEnd  : SpringBoot</p>
                                     <p>DB : AWS RDS( Mysql 17)</p>
-                                    <p>Front배포 : 구글 플레이 콘솔 심사중 </p>
                                 </div>
                            </Project_Section_Layout>
                           <Project_Section_Layout>
