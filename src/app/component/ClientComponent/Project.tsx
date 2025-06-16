@@ -6,7 +6,7 @@ import { Project_GuriDaek } from "../../component/ImageCompo";
 import { Project_Subway } from "../../component/ImageCompo";
 import { Project_Modal_Cp } from "../modal/ProjectModal";
 import { Project_Section_Layout } from "../LayOutCompo";
-import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2 } from "../ImageCompo";
+import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2, SubWay_img3 } from "../ImageCompo";
 import { useState } from "react";
 
 type modalType = {
@@ -173,14 +173,16 @@ const Subway_Container = (props : Container_type) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"} marginleft={"200px"} >
+                                    <Project_Content_Image_Div height={"300px"} marginleft={"130px"} >
                                         <Project_Subway></Project_Subway>
                                         <SubWay_img1></SubWay_img1>
                                         <SubWay_img2></SubWay_img2>
+                                        <SubWay_img3></SubWay_img3>
                                     </Project_Content_Image_Div>
                                 <div className={styles.project_content_inner_detail_div}>
                                     <p>
-                                        지하철 공공데이터 API를 이용하여 지하철 시간표, 도착정보를 알려 주는 어플리케이션. 조회한 지하철역의 환승 노선과 다음 열차의 예상 도착정보를 화면에 표출합니다.
+                                        평소에 사용하던 지하철 앱에 로그인 기능과 즐겨찾기 기능이 없어 불편함을 느껴 자체 제작을 하게 되었습니다. 지하철 도착정보는 공공데이터 포탈 API를 사용하였고, 
+                                        로그인 기능은 카카오 로그인 API와 네이버 API 를 사용 하였습니다. 
                                     </p>
                                 </div>
                            </Project_Section_Layout>
@@ -188,7 +190,7 @@ const Subway_Container = (props : Container_type) => {
                              <h1>프로젝트 기간</h1>
                              <div className={styles.project_content_inner_detail_div}>
                                     <p>
-                                        2025.05 ~ 진행중
+                                        2025.05 ~ 
                                     </p>
                              </div>
                           </Project_Section_Layout>
@@ -200,11 +202,11 @@ const Subway_Container = (props : Container_type) => {
                                 <div className={styles.project_content_inner_detail_div}>
                                     <p>FrontEnd : React Native, Android Studio</p>
                                     <p>BackEnd  : SpringBoot</p>
-                                    <p>DB : AWS RDS( Mysql 17)</p>
+                                    <p>DB : AWS RDS</p>
                                 </div>
                            </Project_Section_Layout>
                           <Project_Section_Layout>
-                             <h1>계획된 기능</h1>
+                             <h1>주요 기능</h1>
                              <div className={styles.project_content_inner_detail_div}>
                                     <p>카카오, 네이버를 통한 로그인기능</p>
                                     <p>사람들이 자주 이용하는 노선 or 지하철 즐겨찾기 기능</p>

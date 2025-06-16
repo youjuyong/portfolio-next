@@ -26,6 +26,7 @@ import goonzu_title3 from  "../../../public/images/project_img/goonzu_title3.png
 import subway_main from  "../../../public/images/subway_main.jpg";
 import subway_2 from  "../../../public/images/subway_2.jpg";
 import subway_3 from  "../../../public/images/subway_3.jpg";
+import subway_4 from  "../../../public/images/subway_4.jpg";
 import raontec_img from "../../../public/images/raontec_img.png";
 
 export const Header_Log = () => {
@@ -285,6 +286,16 @@ export const SubWay_img2 = () => {
     return (
         <Image src={subway_3}
             alt ="지하철 뉴맵 이미지 2"
+            width="120"
+            height="300"></Image>
+    )
+}
+
+export const SubWay_img3 = () => {
+    
+    return (
+        <Image src={subway_4}
+            alt ="지하철 뉴맵 이미지 4"
             width="120"
             height="300"></Image>
     )
