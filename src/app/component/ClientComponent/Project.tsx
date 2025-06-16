@@ -6,7 +6,7 @@ import { Project_GuriDaek } from "../../component/ImageCompo";
 import { Project_Subway } from "../../component/ImageCompo";
 import { Project_Modal_Cp } from "../modal/ProjectModal";
 import { Project_Section_Layout } from "../LayOutCompo";
-import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2, SubWay_img3 } from "../ImageCompo";
+import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2, SubWay_img3, SubWay_img4 } from "../ImageCompo";
 import { useState } from "react";
 
 type modalType = {
@@ -173,11 +173,12 @@ const Subway_Container = (props : Container_type) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"} marginleft={"130px"} >
+                                    <Project_Content_Image_Div height={"300px"} marginleft={"90px"} >
                                         <Project_Subway></Project_Subway>
                                         <SubWay_img1></SubWay_img1>
                                         <SubWay_img2></SubWay_img2>
                                         <SubWay_img3></SubWay_img3>
+                                         <SubWay_img4></SubWay_img4>
                                     </Project_Content_Image_Div>
                                 <div className={styles.project_content_inner_detail_div}>
                                     <p>
