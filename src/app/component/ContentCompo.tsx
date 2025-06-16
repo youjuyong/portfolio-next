@@ -133,11 +133,11 @@ export const Skill = () => {
                 </section>
                 <section>
                     <p>2. FRONT</p>
-                    <JavaScript></JavaScript><React></React><NextJs></NextJs><Html></Html><NodeJs></NodeJs><TypeScript></TypeScript><Css></Css>
+                    <JavaScript></JavaScript><React></React><NextJs></NextJs><Html></Html><TypeScript></TypeScript><Css></Css>
                 </section>
                 <section>
                     <p>3. BACK</p>
-                    <SpringBoot></SpringBoot>
+                    <SpringBoot></SpringBoot><NodeJs></NodeJs>
                 </section>
             </div>
         </div>
