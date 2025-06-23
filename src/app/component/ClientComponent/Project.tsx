@@ -6,7 +6,7 @@ import { Project_GuriDaek } from "../../component/ImageCompo";
 import { Project_Subway } from "../../component/ImageCompo";
 import { Project_Modal_Cp } from "../modal/ProjectModal";
 import { Project_Section_Layout } from "../LayOutCompo";
-import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2, SubWay_img3, SubWay_img4 } from "../ImageCompo";
+import { Project_GuriDaek_Img1, Project_GuriDaek_Img2, Project_Erd_Png, SubWay_img1, SubWay_img2, SubWay_img3, SubWay_img4, SubWay_Arrive_Img_Map } from "../ImageCompo";
 import { useState } from "react";
 
 type modalType = {
@@ -173,9 +173,10 @@ const Subway_Container = (props : Container_type) => {
                          <div className={styles.project_content}>
                             <Project_Section_Layout>
                                 <h1>프로젝트 소개</h1>   
-                                    <Project_Content_Image_Div height={"300px"} marginleft={"90px"} >
+                                    <Project_Content_Image_Div height={"300px"} marginleft={"60px"} >
                                         <Project_Subway></Project_Subway>
                                         <SubWay_img1></SubWay_img1>
+                                        <SubWay_Arrive_Img_Map></SubWay_Arrive_Img_Map>
                                         <SubWay_img2></SubWay_img2>
                                         <SubWay_img3></SubWay_img3>
                                          <SubWay_img4></SubWay_img4>
@@ -191,7 +192,7 @@ const Subway_Container = (props : Container_type) => {
                              <h1>프로젝트 기간</h1>
                              <div className={styles.project_content_inner_detail_div}>
                                     <p>
-                                        2025.05 ~ 
+                                        2025.05 ~ 진행중
                                     </p>
                              </div>
                           </Project_Section_Layout>
@@ -209,8 +210,10 @@ const Subway_Container = (props : Container_type) => {
                           <Project_Section_Layout>
                              <h1>주요 기능</h1>
                              <div className={styles.project_content_inner_detail_div}>
-                                    <p>카카오, 네이버를 통한 로그인기능</p>
-                                    <p>사람들이 자주 이용하는 노선 or 지하철 즐겨찾기 기능</p>
+                                    <p>카카오, 네이버를 통한 빠른 로그인</p>
+                                    <p>특정 지하철역 모든 지하철 도착정보 조회</p>
+                                    <p>지하철 노선별 도착 정보를 kakao Map에 지하철역 마커와 도착 정보를 보여줍니다. 그리고 역 사이마다 해당 노선의 색으로 PolyLine을 만들어 보여줍니다. </p>
+                                    <p>로그인 후 본인이 자주 찾는 지하철 역 즐겨찾기 추가</p>
                              </div>
                           </Project_Section_Layout>
                         </div>

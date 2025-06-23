@@ -129,7 +129,7 @@ export const Skill = () => {
             <div className={styles.skillInner}>
                 <section>
                     <p>1. COMMON</p>
-                    <Github></Github><AwsImage></AwsImage><Vercel></Vercel>
+                    <Github></Github><AwsImage></AwsImage>
                 </section>
                 <section>
                     <p>2. FRONT</p>

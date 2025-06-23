@@ -29,6 +29,7 @@ import subway_3 from  "../../../public/images/subway_3.jpg";
 import subway_4 from  "../../../public/images/subway_4.jpg";
 import subway_5 from  "../../../public/images/login_view.jpg";
 import raontec_img from "../../../public/images/raontec_img.png";
+import subway_arrive_img_map from "../../../public/images/route_train_arrive_info.jpg";
 
 export const Header_Log = () => {
    
@@ -317,6 +318,16 @@ export const Career_Img = () => {
     return (
         <Image src={raontec_img}
             alt="career이미지"
+            width="128"
+            height="128"
+            ></Image>
+    )
+}
+
+export const SubWay_Arrive_Img_Map = () => {
+    return (
+        <Image src={subway_arrive_img_map}
+            alt="뉴맵 노선별 도착정보 조회"
             width="128"
             height="128"
             ></Image>
